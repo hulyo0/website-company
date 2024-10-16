@@ -150,7 +150,7 @@ body{
 .home{
     min-height: 100vh;
     width: 100vw;
-    background-image: url(../images/img1.jpg);
+    background-image: url(../images/WORKER.jfif);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -162,14 +162,26 @@ body{
     overflow: hidden !important;
 }
 
-.home h1{
-    color: #fff;
-    font-size: 5.5rem;
+.home h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    text-shadow: 
+        -1px -1px 0 #000,  /* Top left shadow */
+        1px -1px 0 #000,   /* Top right shadow */
+        -1px 1px 0 #000,   /* Bottom left shadow */
+        1px 1px 0 #000;    /* Bottom right shadow */
+       
+        background-color: rgba(97, 203, 184, 0.5); /* White background with 50% opacity */
+        padding: 10px; /* Optional: Adds space between text and background */
+        display: inline-block; /* Ensures the background only covers the text, not the whole line */
+        
 }
 
 .home h2{
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
+  
+        
 }
 
 .home .wave{
@@ -182,6 +194,7 @@ body{
     background-size: 100rem 11rem;
     animation: waves 8s linear infinite;
     background-repeat: repeat-x;
+    
 }
 
 .home .wave2{
